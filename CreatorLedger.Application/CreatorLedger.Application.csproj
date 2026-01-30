@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>CreatorLedger.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CreatorLedger.Domain\CreatorLedger.Domain.csproj" />
+    <ProjectReference Include="..\Shared.Crypto\Shared.Crypto.csproj" />
+  </ItemGroup>
+
+</Project>

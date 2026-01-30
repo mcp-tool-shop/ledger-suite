@@ -1,0 +1,33 @@
+{
+  "Version": "proof.v1",
+  "Algorithms": {
+    "Signature": "Ed25519",
+    "Hash": "SHA-256",
+    "Encoding": "UTF-8"
+  },
+  "ExportedAtUtc": "2024-06-15T12:00:00.0000000Z",
+  "AssetId": "0ee10df0-7fae-4c82-a28f-9ce56441a41b",
+  "Attestations": [
+    {
+      "AttestationId": "b3b91558-d360-48cd-9966-781d308d7513",
+      "AssetId": "0ee10df0-7fae-4c82-a28f-9ce56441a41b",
+      "ContentHash": "0f70612ea7528c7383ae17cd9d56d4c4836635ee134ee9d86ee50b6a7c6eb006",
+      "CreatorId": "acb012db-8e11-4b6c-8c66-6b7ff872f212",
+      "CreatorPublicKey": "ed25519:LueiPLxs4A5QtKLEqPvryM/c\u002B9EGHLB4mK6gcNPqXTI=",
+      "AttestedAtUtc": "2024-06-15T12:00:00.0000000Z",
+      "Signature": "5\u002Bv7zK1/CFeo0aPpYI1wDOvehgevlwGxKIB/vUnj/rcDsmDxMkD09yMkqBnz8\u002Bm21AuAGQceWFL0JlPCgS4kBg==",
+      "DerivedFromAssetId": null,
+      "DerivedFromAttestationId": null,
+      "EventType": "asset_attested"
+    }
+  ],
+  "Creators": [
+    {
+      "CreatorId": "acb012db-8e11-4b6c-8c66-6b7ff872f212",
+      "PublicKey": "ed25519:LueiPLxs4A5QtKLEqPvryM/c\u002B9EGHLB4mK6gcNPqXTI=",
+      "DisplayName": "Demo Artist"
+    }
+  ],
+  "Anchor": null,
+  "LedgerTipHash": "5ea87ed14b5b2277171d71cbae588b5bf7eb17585cd3e25066e23f9f229b40ac"
+}
