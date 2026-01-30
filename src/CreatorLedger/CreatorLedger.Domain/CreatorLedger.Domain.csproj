@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <RootNamespace>CreatorLedger.Domain</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet package -->
+    <IsPackable>true</IsPackable>
+    <PackageId>CreatorLedger.Domain</PackageId>
+    <Description>Domain model for CreatorLedger - cryptographic provenance for digital assets.</Description>
+    <PackageTags>creator;provenance;cryptography;digital-assets;attestation</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

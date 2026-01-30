@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <RootNamespace>CreatorLedger.Application</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet package -->
+    <IsPackable>true</IsPackable>
+    <PackageId>CreatorLedger.Application</PackageId>
+    <Description>Application services for CreatorLedger - verification, attestation, proof bundles.</Description>
+    <PackageTags>creator;provenance;cryptography;verification;proof</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

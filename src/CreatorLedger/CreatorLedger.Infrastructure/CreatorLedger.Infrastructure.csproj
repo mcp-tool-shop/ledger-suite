@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <RootNamespace>CreatorLedger.Infrastructure</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet package -->
+    <IsPackable>true</IsPackable>
+    <PackageId>CreatorLedger.Infrastructure</PackageId>
+    <Description>Infrastructure implementations for CreatorLedger - SQLite persistence, DPAPI key vault.</Description>
+    <PackageTags>creator;provenance;infrastructure;sqlite</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

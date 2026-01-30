@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <RootNamespace>Shared.Crypto</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet package -->
+    <IsPackable>true</IsPackable>
+    <PackageId>LedgerSuite.Shared.Crypto</PackageId>
+    <Description>Shared Ed25519, SHA-256, and Canonical JSON primitives for ledger-suite projects.</Description>
+    <PackageTags>cryptography;ed25519;sha256;json;signing</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,0 +1,37 @@
+<Project>
+  <PropertyGroup>
+    <!-- Version injected by CI on tags; default for local builds -->
+    <Version>0.1.0</Version>
+
+    <!-- Package metadata -->
+    <Authors>mcp-tool-shop</Authors>
+    <Company>mcp-tool-shop</Company>
+    <Copyright>Copyright (c) mcp-tool-shop</Copyright>
+    <RepositoryUrl>https://github.com/mcp-tool-shop/ledger-suite</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/mcp-tool-shop/ledger-suite</PackageProjectUrl>
+
+    <!-- License -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <!-- Build settings -->
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
+
+    <!-- Symbol packages for debugging -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+    <!-- Source Link for debugging -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+
+    <!-- Default: not packable (explicit opt-in per project) -->
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+</Project>

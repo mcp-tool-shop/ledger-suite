@@ -1,15 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet package -->
+    <IsPackable>true</IsPackable>
+    <PackageId>ClaimLedger.Infrastructure</PackageId>
+    <Description>Infrastructure implementations for ClaimLedger.</Description>
+    <PackageTags>claims;provenance;infrastructure</PackageTags>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\ClaimLedger.Domain\ClaimLedger.Domain.csproj" />
     <ProjectReference Include="..\ClaimLedger.Application\ClaimLedger.Application.csproj" />
     <ProjectReference Include="..\..\CreatorLedger\Shared.Crypto\Shared.Crypto.csproj" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
 
 </Project>

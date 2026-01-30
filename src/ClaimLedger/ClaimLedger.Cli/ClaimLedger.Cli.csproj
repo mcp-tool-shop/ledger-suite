@@ -6,6 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>claimledger</AssemblyName>
+
+    <!-- Not packable as NuGet (use 'dotnet publish' for distribution) -->
+    <IsPackable>false</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
