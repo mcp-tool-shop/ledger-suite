@@ -1,0 +1,31 @@
+{
+  "Version": "claim-bundle.v1",
+  "Algorithms": {
+    "Signature": "Ed25519",
+    "Hash": "SHA-256",
+    "Encoding": "UTF-8"
+  },
+  "Claim": {
+    "ClaimId": "fc23ad53-74b5-4a4d-b3bf-f0b5deddf5b5",
+    "Statement": "The proposed neural network architecture achieves 94.7% accuracy on the MNIST benchmark",
+    "AssertedAtUtc": "2024-06-15T12:00:00.0000000\u002B00:00",
+    "Evidence": [
+      {
+        "Type": "Dataset",
+        "Hash": "547d38b7040a75e14b382ffe950eeef3776369147565bed0cb24b29a939f4a42",
+        "Locator": "https://example.com/dataset.csv"
+      },
+      {
+        "Type": "Code",
+        "Hash": "1959af1c525786c986e25e3d9780916fb20b42f78fc0c3c1cfb1e6772ce33529",
+        "Locator": "https://github.com/example/model"
+      }
+    ],
+    "Signature": "nAvy7vIYGkI6V8waHeYv3lGy\u002BkfV1nUP2dWwD\u002BIKNeRdPEhbfq8HvD8GgNO0XKqqYq3DjQ58urJAog/fWPPoBA=="
+  },
+  "Researcher": {
+    "ResearcherId": "773a22bb-b8f5-4568-b21f-fc6feb9889cf",
+    "PublicKey": "ed25519:y0RLetxnyUwRHhGa0CoAcfxdAvJnUjce9J3p3koUY4A=",
+    "DisplayName": "Dr. Jane Smith"
+  }
+}
