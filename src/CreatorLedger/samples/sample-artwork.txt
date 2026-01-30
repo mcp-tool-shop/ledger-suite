@@ -1,0 +1,6 @@
+This is a sample digital artwork file.
+Created by: Demo Artist
+Date: 2024-01-15
+
+The content of this file is protected by CreatorLedger.
+Its SHA-256 hash has been attested and cryptographically signed.

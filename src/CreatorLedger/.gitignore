@@ -1,0 +1,39 @@
+# Build outputs
+bin/
+obj/
+out/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+
+# Test results
+TestResults/
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit)
+*.pfx
+*.key
+appsettings.*.json
+!appsettings.json
+
+# SQLite databases
+*.db
+*.db-wal
+*.db-shm
+
+# Temp files
+*.tmp
+*.temp
+*.log
