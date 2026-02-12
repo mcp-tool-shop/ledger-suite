@@ -7,9 +7,9 @@
     <Authors>mcp-tool-shop</Authors>
     <Company>mcp-tool-shop</Company>
     <Copyright>Copyright (c) mcp-tool-shop</Copyright>
-    <RepositoryUrl>https://github.com/mcp-tool-shop/ledger-suite</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mcp-tool-shop-org/ledger-suite</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/mcp-tool-shop/ledger-suite</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/mcp-tool-shop-org/ledger-suite</PackageProjectUrl>
 
     <!-- License -->
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
