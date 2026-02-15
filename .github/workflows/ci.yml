@@ -9,6 +9,10 @@ on:
     paths: ['**/*.csproj']
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build-and-test:
     runs-on: windows-latest  # Windows required for DPAPI in CreatorLedger tests
